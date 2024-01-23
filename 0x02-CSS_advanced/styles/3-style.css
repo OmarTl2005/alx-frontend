@@ -1,4 +1,4 @@
-/* creating variables */
+/* Custom properties in root elements to use css variables */
 
 html {
   scroll-behavior: smooth;
@@ -10,7 +10,7 @@ html {
   --color-white: #ffffff;
   --color-light-grey: #f3f3f3;
   --color-dark-grey: #353535;
-  --text-color: var(--color-back);
+  --text-color: var(--color-black);
 }
 
 body {
@@ -18,7 +18,7 @@ body {
 }
 
 a {
- color: var(--text-color);
+  color: var(--text-color);
 }
 
 .visually-hidden {
