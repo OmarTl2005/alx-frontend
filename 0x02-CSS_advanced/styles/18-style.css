@@ -1,4 +1,4 @@
-/* Resetting the CSS stylesheet for browser consistency */
+/* Customizing the navbar */
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
@@ -354,7 +354,6 @@ template {
 
 /*# sourceMappingURL=normalize.min.css.map */
 
-
 *,
 *:before,
 *:after {
@@ -391,6 +390,7 @@ html {
   --line-height-big: 1.8;
 
   --section-header-align: center;
+  --section-footer-align: center;
 
   --section-tagline-transform: uppercase;
 
@@ -400,17 +400,16 @@ html {
   --section-padding: 5rem 0;
   --section-header-padding: 0 0 3rem;
   --section-body-padding: 0 0 3rem;
-  --section-footer-align: center;
   --section-footer-padding: 3rem 0 0;
   --footer-padding: 5rem 0 1rem;
 
   --nav-item-font-family: var(--font-family-title);
-  --nav-item-font-weight: var(--fotn-weight-bold);
+  --nav-item-font-weight: var(--font-weight-bold);
   --nav-item-font-size: var(--font-size-medium);
-  --nav-item-letter-spacing: 4%;
+  --nav-item-letter-spacing: 0.04rem;
   --nav-item-display: inline-block;
   --nav-item-margin: 0 0 3rem 0;
-  --nav-item-link-hove: var(--color-primary);
+  --nav-item-link-hover: var(--color-primary);
 }
 
 body {
@@ -499,14 +498,14 @@ a:active {
   padding: var(--footer-padding);
 }
 
-.nav-menu {
+.navbar-menu {
   float: right;
 }
 
 .nav {
   margin: 0;
   padding: 0;
-  list-style: none;
+  list-style-type: none;
   text-align: center;
 }
 
